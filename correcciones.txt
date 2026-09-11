@@ -1,0 +1,4 @@
+* TPS1
+* Excelente trabajo
+* Cambiá la ruta para acceder a la imagen archivo EJ2.1.jpeg, porque cuando corro tu código se 
+  rompe en ese punto. Tiene que ser una ruta relativa.
