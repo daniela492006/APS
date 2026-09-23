@@ -1,4 +1,17 @@
-* TPS1
-* Excelente trabajo
-* Cambiá la ruta para acceder a la imagen archivo EJ2.1.jpeg, porque cuando corro tu código se 
-  rompe en ese punto. Tiene que ser una ruta relativa.
+* Correcciones de las TSs
+
+  * TS1: Análisis de Señales 
+    * Excelente trabajo
+    * Cambiá la ruta para acceder a la imagen archivo EJ2.1.jpeg, porque cuando corro tu código se 
+      rompe en ese punto. Tiene que ser una ruta relativa.
+
+  * TPS3: Desparramo Espectral
+    * Pasá el texto por un corrector que hay un error.
+    * En los gráficos de los espectros es mejor mostrar los puntos sin unir para no generar la falsa
+      idea de un espectro continuo. No olvidar que la DFT es la DTFT muestreada. El plot así como lo 
+      estás usando uniendo los puntos con rectas, no es lo más adecuado.
+    * En el eje vertical de los espectros la etiqueta Potencia no es lo más correcto. La potencia en 
+      todo caso es la sumatorio de esos valores del espectro a lo largo de todo el dominio de la 
+      frecuencia.
+    * Falta una explicación con cierto detalle de por qué con zero padding se ve el espectro de esa 
+      forma (convolución en frecuencia.).
