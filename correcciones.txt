@@ -15,3 +15,13 @@
       frecuencia.
     * Falta una explicación con cierto detalle de por qué con zero padding se ve el espectro de esa 
       forma (convolución en frecuencia.).
+
+  * TPS4: Estimadores
+    * Etiqueta no correcta en el eje vertical de los histogramas. El número de realizaciones es 200. esos
+      valores resultan del conteo de casos que entran en el rango definido por un determinado bin.     
+    * Falta el histograma para la estimación de la frecuencia.
+    * Estaría bueno que hagas aunque sea un pequeño análisis debajo del primer histograma y no dejes todo 
+      para  más adelante. Para poder observar lo que decís con el gráfico a la vista.
+    * En la conclusión decís: "Al aumentar la SNR de 3 dB a 10 dB disminuye la influencia relativa del ruido 
+      y se observa una mejora especialmente clara en la estimación de amplitud con Flattop." No es lo que uno 
+      puede observar de las tablas que mostrás, los valores de varianza son muy similares.
