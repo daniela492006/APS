@@ -25,3 +25,14 @@
     * En la conclusión decís: "Al aumentar la SNR de 3 dB a 10 dB disminuye la influencia relativa del ruido 
       y se observa una mejora especialmente clara en la estimación de amplitud con Flattop." No es lo que uno 
       puede observar de las tablas que mostrás, los valores de varianza son muy similares.
+
+  * TPS5: Estimación Espectral
+    * Falta justificación del uso del método de Welch comparando con los otros dos métodos que se sugieren 
+      en la consigna.
+    * Falta gráfico de los espectros.
+    * Uno de los puntos más importantes a analizar en toda estimación es la varianza de la misma. No veo que
+      en ninguna parte te refieras al tema. No hablás ni de la varianza en la estimación del espectro ni de
+      la estimación del ancho de banda. 
+    * Los gráficos de las señales en el dominio del tiempo tienen en el eje vertical una etiqueta que no es 
+      del todo correcta. La amplitud está relacionada con los valores máximos de la señal, con poner x(t) 
+      estaba bien.
